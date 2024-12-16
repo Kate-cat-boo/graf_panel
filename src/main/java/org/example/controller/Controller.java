@@ -4,9 +4,9 @@ package org.example.controller;
 import org.example.controller.action.ActionDraw;
 import org.example.controller.action.ActionInterface;
 import org.example.controller.state.State;
-import org.example.Model.Model;
-import org.example.Model.MyShape;
-import org.example.Model.undomachine.UndoMachine;
+import org.example.model.Model;
+import org.example.model.MyShape;
+import org.example.model.undomachine.UndoMachine;
 import org.example.view.MyFrame;
 import org.example.view.MyPanel;
 

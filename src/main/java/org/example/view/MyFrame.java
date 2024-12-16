@@ -4,8 +4,8 @@ import org.example.controller.Controller;
 import org.example.controller.action.ActionDraw;
 import org.example.controller.action.ActionMove;
 import org.example.controller.state.State;
-import org.example.Model.FillBehavior;
-import org.example.Model.undomachine.UndoMachine;
+import org.example.model.FillBehavior;
+import org.example.model.undomachine.UndoMachine;
 import org.example.view.menu.*;
 
 import javax.swing.*;

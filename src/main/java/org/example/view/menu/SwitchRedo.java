@@ -1,7 +1,7 @@
 package org.example.view.menu;
 
 
-import org.example.Model.undomachine.UndoMachine;
+import org.example.model.undomachine.UndoMachine;
 import java.awt.event.ActionEvent;
 import java.util.Observable;
 import java.util.Observer;

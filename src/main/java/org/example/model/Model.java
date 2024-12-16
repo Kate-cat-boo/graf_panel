@@ -1,30 +1,30 @@
-package org.example.Model;
+package org.example.model;
 
 import java.util.ArrayList;
 import java.util.Collection;
 
 public class Model {
-    MyShape currentShape;
-    Collection<MyShape> list;
+    org.example.model.MyShape currentShape;
+    Collection<org.example.model.MyShape> list;
 
     public Model() {
         list = new ArrayList<>();
     }
 
-    public void setCurrentShape(MyShape currentShape) {
+    public void setCurrentShape(org.example.model.MyShape currentShape) {
         this.currentShape = currentShape;
     }
 
-    public void createCurrentShape(MyShape shape) {
+    public void createCurrentShape(org.example.model.MyShape shape) {
         currentShape = shape;
         list.add(currentShape);
     }
 
-    public MyShape getCurrentShape() {
+    public org.example.model.MyShape getCurrentShape() {
         return currentShape;
     }
 
-    public Collection<MyShape> getList() {
+    public Collection<org.example.model.MyShape> getList() {
         return list;
     }
 }

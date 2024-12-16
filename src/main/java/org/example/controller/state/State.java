@@ -8,10 +8,10 @@ package org.example.controller.state;
 import java.awt.Color;
 import java.awt.geom.Rectangle2D;
 import java.awt.geom.RectangularShape;
-import org.example.Model.Model;
+import org.example.model.Model;
 import org.example.controller.action.*;
-import org.example.Model.FillBehavior;
-import org.example.Model.MyShape;
+import org.example.model.FillBehavior;
+import org.example.model.MyShape;
 
 
 /**

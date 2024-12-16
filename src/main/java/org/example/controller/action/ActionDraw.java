@@ -1,7 +1,7 @@
 package org.example.controller.action;
 
-import org.example.Model.Model;
-import org.example.Model.MyShape;
+import org.example.model.Model;
+import org.example.model.MyShape;
 
 import java.awt.*;
 import java.awt.geom.Ellipse2D;
